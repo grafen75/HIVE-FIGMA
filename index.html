@@ -3,22 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Figma Embed - WEB Board</title>
+  <title>Figma Fullscreen Embed</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      padding: 2rem;
-      background: #fafafa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
     }
     iframe {
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      width: 800px;
-      height: 450px;
+      border: none;
+      width: 100vw;
+      height: 100vh;
+      display: block;
     }
   </style>
 </head>
